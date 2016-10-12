@@ -1,0 +1,42 @@
+<!-- Capture and store page url -->
+
+{% capture location %} {{page.url | split:'/'}} {% endcapture %}
+
+<header class="header">
+    <div class ="section header-container">
+        <h1 class="logo"><a href="/">{{ site.title }}</a></h1>
+        <h4 class="sub-head">
+        We work at the intersection of marketing, design, and technology. 
+        </h4>
+    </div>
+
+    <div class="navigation">
+        <nav class="menu">
+        <ul>                     
+            <li  class ="menu__entry" >
+                <a href="/">Home</a>
+            </li>
+         
+            <!--<li  class ="menu__entry" >
+                <a href="/our-work/">Our Work</a>
+            </li> -->
+
+            <li  class ="menu__entry" >
+                <a href="/how-we-work/">Services</a>
+            </li>    
+            
+            <li  class ="menu__entry" >
+                <a href="/writing/">Writing</a>
+            </li>   
+        </ul>
+    </nav>
+    </div>
+
+    <ul class="social-links">
+        {% if site.author.twitter %}
+            <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+        {% endif %}
+    </ul>
+</header>

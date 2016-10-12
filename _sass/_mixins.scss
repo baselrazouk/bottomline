@@ -1,0 +1,28 @@
+@mixin centered-block() {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box { @include border-radius(10px); }
+
+
+@mixin display (
+  $disp, 
+  $padding: null, 
+  $r-margin: null,
+  $l-margin: null) {
+    display: $disp;
+    padding: $padding;
+    margin-left: $l-margin;
+    margin-right: $r-margin;
+}
+
+//  @include display(inline-block, $l-margin: 20px);

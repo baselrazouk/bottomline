@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://bottomline.io/sitemap.xml

@@ -1,0 +1,51 @@
+<div class="span_12_of_12 home-portfolio">
+  <h1 class="page-title">
+    <div class="page-title__text">Don't just take our word for it</div>
+  </h1>
+  <p>
+    At Bottom Line we build long-term lasting relationships, becuase we believe in steady sustainable growth for our customers.
+  </p>
+
+    {% for post in site.posts %}
+      {% if post.categories contains 'portfolio-featured' limit:2 %}
+        <div class="section">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+          <div class="work-teaser">
+            <div class="work-teaser-content span_6_of_12 col">
+                <h3><strong><span class="work-teaser__title">{{ post.title }}</span></strong></h3>
+                <blockquote><p>{{post.excerpt}}</p></blockquote>
+            </div>
+            <div class="work-teaser-image span_6_of_12 col">
+                {% if post.image %}
+                <img class="work-image" src="assets/img/{{post.image}}">
+                {% endif %}
+            </div>
+          </div>
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  <div class="section">
+    <h2 class="page-title">
+      <div class="page-title__text">The Other Company We Keep...</div>
+    </h2>
+    <h4>We have friends - all with unique ambitions. Some big, some small, all looking to make an impact in their area of business.
+    </h4>
+    <div class="group section"> 
+      <div class="group span_3_of_12 col">
+        <object id="logo" data="/assets/img/logo.svg" type="image/svg+xml"></object>
+      </div>
+
+      <div class="group span_3_of_12 col">
+        <object id="logo" data="/assets/img/logo.svg" type="image/svg+xml"></object>
+      </div>
+      
+      <div class="group span_3_of_12 col">
+        <object id="logo" data="/assets/img/logo.svg" type="image/svg+xml"></object>
+      </div>
+      <div class="group span_3_of_12 col">
+        <object id="logo" data="/assets/img/logo.svg" type="image/svg+xml"></object>
+      </div>      
+    </div>
+  </div>
+</div>
