@@ -1,0 +1,24 @@
+---
+layout: page
+title: Thanks!
+subtitle: We'll get back to you within the next 24 hours with some next steps.
+permalink: /contact/thanks/
+---
+
+<h2>In the meantime, explore our latest writing</h2>
+<ul class="list-posts">
+    {% for post in site.posts limit:3%}
+        {% if post.tags contains 'blog' %}
+        <li class="post-teaser">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <span class="post-teaser__title">{{ post.title }}</span>
+                <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+            </a>
+            <p> {{post.excerpt}} </p>
+            {% if page.image %}
+            <img class="" src="/img/{{page.image}}">
+            {% endif %}
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>

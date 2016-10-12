@@ -1,0 +1,32 @@
+---
+layout: page
+title: Let's talk
+subtitle: About your business.
+permalink: /contact/
+---
+<form action="https://formspree.io/basel@bottomline.io" method="POST">
+    <h4>
+      <fieldset class="span_12_of_12">
+    <label class="span_4_of_12 col">
+      <span>Your name</span>
+    </label>
+    <input class="span_8_of_12 col" id="name" type="text" name="name" />
+  </fieldset>
+  <fieldset class="span_12_of_12">
+    <label class="span_4_of_12 col">
+      <span>Email Address</span>
+    </label>
+      <input class="span_8_of_12 col" id="email" type="text" name="email" />
+    </fieldset>
+    <fieldset class="span_12_of_12">
+      <label class="span_4_of_12 col">
+      <span>What are you interested in?</span>
+    </label>
+
+    <textarea class="span_8_of_12 col" id="feedback" name="comment"></textarea>
+  </fieldset>
+    <div class="span_4_of_12 col"></div>
+    <input type="hidden" name="_next" value="/contact/thanks/" />
+    <input class="contact_button span_8_of_12 col" type="submit" value="Submit Form" />
+  </h4>
+</form>

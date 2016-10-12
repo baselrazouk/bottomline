@@ -1,0 +1,27 @@
+---
+layout: page
+title: Writing
+subtitle: Thoughts on marketing, design, and business
+permalink: /writing/
+sitemap:
+  priority: 0.9
+---
+
+<ul class="list-posts">
+    {% for post in site.posts%}
+        {% if post.tags contains 'blog'%}
+        <li class="post-teaser">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <span class="post-teaser__title">{{ post.title }}</span>
+                <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+            </a>
+            <p> {{post.excerpt}} </p>
+            {% if page.image %}
+            <img class="" src="/img/{{page.image}}">
+            {% endif %}
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+{% include page/explore.html %}

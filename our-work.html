@@ -1,0 +1,24 @@
+---
+layout: page
+title: Our Work
+subtitle: Where and how we've made an impact
+permalink: /our-work/
+sitemap:
+  priority: 0.9
+---
+
+<div class="group section">
+    {% for post in site.posts %}
+    {% if post.categories contains 'portfolio' %}
+      <div class="group span_6_of_12 col work-teaser">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+              <span class="work-teaser__title"><h3>{{ post.title }}</h3></span>
+          </a>
+          {% if post.image %}
+          <img class="work-image" src="/assets/img/{{post.image}}">
+          {% endif %}
+          <blockquote><p>{{post.excerpt}}</p></blockquote>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
