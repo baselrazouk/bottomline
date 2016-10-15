@@ -552,7 +552,7 @@ Our Work
 .home-end{
         clear:both;
         background: $B;
-        padding: 40px 12.5%;
+        padding: 50px 12.5%;
         margin-left:-12.5%;
 }
 
@@ -778,9 +778,10 @@ Post Page
 
 .about {
     color: $cloudy;
-    margin-top: 70px;
+    margin: 70px 0 0 0;
     text-align: center;
     line-height: 24px;
+    padding-bottom:100px;
 }
 
 .about__devider {
@@ -794,8 +795,9 @@ Post Page
 }
 
 #disqus_thread {
-    margin-top: 100px;
+    margin-top: 0px;
 }
+
 
 /***************************************************************************** 
 Media Queries 
@@ -869,6 +871,10 @@ body {
     }
 }
 
+h4{
+margin-top:20px;
+}
+
 @media (max-width: 800px) {
     /* =Base */
     p {
@@ -925,15 +931,63 @@ body {
     .post-title__subtitle {
         font-size: 18px;
     }
-    .home-end{
-    display:none;
-    }
-    .home-end-mobile{
-    display:none;
-    }
 }
 
+@media (max-width: 480px) {
+      /* =Base */
 
+    .main{
+    max-width:90%;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .page-title {
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+
+    .page-title__text {
+        font-size: 40px;
+    }
+
+    .page-title__subtitle {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .logo{
+    font-size: 46px;
+    margin-bottom:0;
+    }
+    .sub-head{
+    display:none;
+    }
+
+    .social-links {
+        margin-top: 5px;
+    }
+
+    .navigation{
+    padding:0;
+    margin:0;
+    }
+
+    .home-mission{
+    font-size:1.4em;
+    }
+
+    h2{
+    font-size: 1.8em;
+    }
+
+    h4{
+    font-size:1.2em;
+    }
+
+
+}
 .group:after{
   content:"";
   display:table;
