@@ -919,6 +919,13 @@ margin-top:20px;
         float: none;
         @include centered-block();
     }
+.menu__entry {
+font-size: 22px;
+    text-align:center;
+    display: inline-block;
+    padding:5px 10px;
+    margin:0;
+}
 
     .explore {
         margin-top: 40px;
@@ -973,6 +980,8 @@ margin-top:20px;
     padding:0;
     margin:0;
     }
+
+
 
     .home-mission{
     font-size:1.4em;

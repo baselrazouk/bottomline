@@ -1057,6 +1057,13 @@ h4 {
     text-align: center;
     width: 100%; }
 
+  .menu__entry {
+    font-size: 22px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0; }
+
   .explore {
     margin-top: 40px; }
 
