@@ -329,7 +329,7 @@ header{
     z-index: 10;
     width: 25%;
     height: 100rem;
-    border-right: 10px solid $machiot-black;
+    /*border-right: 10px solid $machiot-black;*/
     overflow: hidden;
     padding: 1rem;
     box-sizing:border-box;
@@ -338,7 +338,7 @@ header{
 
 .sub-head{
     text-align:right;
-    color: $milkman;
+    color: $white;
 }
 
 .logo{
@@ -347,14 +347,14 @@ header{
   font-size:5em;
   line-height:1em;
   font-weight: 400;
-  color: #fff;
+  color: $white;
   padding: 0 0 0.5em 0;
-  border-bottom:5px solid #fff;
+  border-bottom:5px solid $white;
 }
 
 .logo a {
     font-weight:400;
-    color:#fff;
+    color: $white;
 }
 
 /***************************************************************************** 
@@ -489,7 +489,7 @@ Titles
 
 .page-title__text {
     font-weight: 500;
-    font-size: 2em;
+    font-size: 2.5em;
     line-height: 1.2em;
 }
 
@@ -511,11 +511,11 @@ Titles
 Home 
 *****************************************************************************/
 
-.home-intro{
+.home-intro {
     margin: 0 0 80px 0;
 }
 
-.home-sub{
+.home-sub {
     margin-top: 80px;
     margin-bottom: 80px;
     }
