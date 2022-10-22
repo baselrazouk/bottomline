@@ -4,7 +4,7 @@
 
 <header class="header">
     <div class ="section header-container">
-        <h1 class="logo"><a href="/">{{ site.title }}</a></h1>
+        <h1 class="logo"><a href="/" | prepend: site.baseurl }}</a></h1>
         <h4 class="sub-head">
         We work at the intersection of marketing, design, &amp; technology. 
         </h4>
@@ -18,15 +18,15 @@
             </li>
          
             <!--<li  class ="menu__entry" >
-                <a href="{{ base.url }}/our-work/">Our Work</a>
+                <a href="/our-work/"| prepend: site.baseurl }}>Our Work</a>
             </li> -->
 
             <li  class ="menu__entry" >
-                <a href="{{ base.url }}/how-we-work/">Services</a>
+                <a href="/how-we-work/"| prepend: site.baseurl }}>Services</a>
             </li>    
             
             <li  class ="menu__entry" >
-                <a href="{{ base.url }}/writing/">Writing</a>
+                <a href="/writing/" | prepend: site.baseurl }}>Writing</a>
             </li>   
         </ul>
     </nav>
