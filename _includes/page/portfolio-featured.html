@@ -1,11 +1,4 @@
 <div class="span_12_of_12 home-portfolio">
-  <h1 class="page-title">
-    <div class="page-title__text">Don't just take our word for it</div>
-  </h1>
-  <p>
-    At Bottom Line we build long-term lasting relationships, becuase we believe in steady sustainable growth for our customers.
-  </p>
-
     {% for post in site.posts %}
       {% if post.categories contains 'portfolio-featured' limit:2 %}
         <div class="section">
