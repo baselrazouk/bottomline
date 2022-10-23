@@ -1,7 +1,7 @@
 # Site settings
 title: the bottom line
 description: >
-  A marketing and design agency which exsists to pursue the sole aim of positively impacting your businesses bottom line by creating simple solutions which showcase your individuality and helps you attract, grow, and engage with your customers
+  A web and print design agency, working to showcase your individuality and help you attract, grow, and engage with your customers.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
