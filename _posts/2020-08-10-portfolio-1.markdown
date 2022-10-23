@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Insure Smart Webstie Re-design"
-image:fatih-kgqu_qs3B78-unsplash.jpg
+image: fatih-kgqu_qs3B78-unsplash.jpg
 subtitle: "Subtitle of the feature"
 date:   2016-10-17 08:00:00
 categories: [portfolio]
