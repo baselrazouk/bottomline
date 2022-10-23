@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Power of Story Telling"
+title:  "Telling your story"
 subtitle: "Why your business needs a stroy more than ever."
 date:   2016-09-26 08:00:00
 categories: [marketing]
