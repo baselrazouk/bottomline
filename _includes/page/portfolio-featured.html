@@ -1,6 +1,6 @@
 <div class="span_12_of_12 home-portfolio">
     {% for post in site.posts %}
-      {% if post.categories contains 'portfolio-featured' limit:2 %}
+      {% if post.categories contains 'portfolio' limit:2 %}
         <div class="section">
           <a href="{{ post.url | prepend: site.baseurl }}">
           <div class="work-teaser">
