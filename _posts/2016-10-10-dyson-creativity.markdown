@@ -1,6 +1,6 @@
 ---
 layout: 
-title:  "James Dyson and the Creative Process"
+title:  "Blog Post on Creativity"
 subtitle: "Creativity doesn't come in a flash. It's a long an iterative process."
 date:   2016-10-10 08:00:00
 categories: [marketing]
