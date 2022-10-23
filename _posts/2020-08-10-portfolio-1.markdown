@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Insure Smart Webstie Re-design"
-image: /assets/img/insure-smart.png
+image: insure-smart.png
 subtitle: "Subtitle of the feature"
 date:   2016-10-17 08:00:00
 categories: [portfolio]
