@@ -6,7 +6,7 @@ subtitle: "Subtitle of the feature"
 date:   2016-10-17 08:00:00
 categories: [portfolio]
 excerpt: We did this and that
-tag: blog
+tag: portfolio
 ---
 
 This is a post abut insure smart
