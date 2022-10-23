@@ -1,4 +1,12 @@
 <div class="span_12_of_12 home-portfolio">
+    
+  <div class="section">
+    <h2 class="page-title">
+      <div class="page-title__text">Our Portfolio</div>
+      <div class="page-subtitle__text">Don't just take our word for it...</div>  
+    </h2>
+  </div>
+    
     {% for post in site.posts %}
       {% if post.categories contains 'portfolio' limit:2 %}
         <div class="section">
@@ -18,27 +26,5 @@
         </div>
       {% endif %}
     {% endfor %}
-  <div class="section">
-    <h2 class="page-title">
-      <div class="page-title__text">The Other Company We Keep...</div>
-    </h2>
-    <h4>We have friends - all with unique ambitions. Some big, some small, all looking to make an impact in their area of business.
-    </h4>
-    <div class="group section"> 
-      <div class="group span_3_of_12 col">
-        <object id="logo" data="/assets/img/logo.svg" type="image/svg+xml"></object>
-      </div>
 
-      <div class="group span_3_of_12 col">
-        <object id="logo" data="/assets/img/logo.svg" type="image/svg+xml"></object>
-      </div>
-      
-      <div class="group span_3_of_12 col">
-        <object id="logo" data="/assets/img/logo.svg" type="image/svg+xml"></object>
-      </div>
-      <div class="group span_3_of_12 col">
-        <object id="logo" data="/assets/img/logo.svg" type="image/svg+xml"></object>
-      </div>      
-    </div>
-  </div>
 </div>
