@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Brand Guidelines and Print for Company"
-image: laura-vinck-Hyu76loQLdk-unsplash.jpg
+image: jp-valery-Y_SlWa1wB8Y-unsplash.jpg
 subtitle: "Subtitle of the feature"
 date:   2016-10-17 08:00:00
 categories: [portfolio]
